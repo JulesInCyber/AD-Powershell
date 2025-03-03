@@ -1,7 +1,6 @@
-'''
-Some Users should only be allowed to logon on certain Workstations/Servers.
-This Script can be used to show, modify or reset the Parameter 'LogonWorkstations' for any AD-User
-'''
+# Some Users should only be allowed to logon on certain Workstations/Servers.
+# This Script can be used to show, modify or reset the Parameter 'LogonWorkstations' for any AD-User
+
 
 $Mode = $args[0]
 $User = $args[1]
