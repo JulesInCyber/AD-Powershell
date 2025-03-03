@@ -9,7 +9,7 @@ $Workstation = $args[2..$args.Count] -join ","
 # Show Help
 if ($Mode -eq "-help" -OR $null -eq $Mode)
 {
-    Write-Host "Add or allowed LogonWorkstations for a specific user"
+    Write-Host "Modify allowed LogonWorkstations for a specific user"
     Write-Host "Usage: .\AD-LogonWorkstation [OPTIONS] [USER] [Workstation1] [Workstation2]"
     Write-Host
     Write-Host "Options:"
